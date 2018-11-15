@@ -1,0 +1,478 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm9="http://schemas.microsoft.com/dsltools/UseCaseModel"
+  dslVersion="1.0.0.0"
+  Id="941828c4-28bf-4c9f-9d2e-99802c9bb095"
+  name="gamerzhere" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <subsystem
+        Id="052616dd-487b-40ee-88c5-b0f362ec3542"
+        name="GamerzHere"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="bd06704a-0d7d-4fba-8c6a-ae47f42cd3eb"
+        name="Customer"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="3ae78b5f-3e04-4859-aeeb-af200c24240a"
+            isDerived="false"
+            sourceEndRoleName="Customer"
+            targetEndRoleName="Game Store"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="2fed2b86-2406-494f-ac8d-5412e1985fef"
+              LastKnownName="Game Store"
+              LastKnownLocation="gamerzhere.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c1aac84c-65b7-432b-bc32-0ae2000425e9"
+                  name="Customer"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="44676442-fc77-41ad-833d-0cf8a704b4c7"
+                  name="Game Store"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="513c20b1-924d-44e6-bf61-5ce1a308406c"
+            isDerived="false"
+            sourceEndRoleName="Customer"
+            targetEndRoleName="Learning Center"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="48e558cf-1d22-4ea4-bb2a-cf53bf6fd00b"
+              LastKnownName="Learning Center"
+              LastKnownLocation="gamerzhere.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="2308fcd0-d627-442f-a066-07a59d48d173"
+                  name="Customer"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="dd8ebda7-1419-4d42-9895-0ba54c8cb6b3"
+                  name="Learning Center"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="c37b59b1-bcd3-4e13-ae54-d6398ab3b152"
+            isDerived="false"
+            sourceEndRoleName="Customer"
+            targetEndRoleName="Blog Site"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="0b0f0a06-a588-4742-bdd4-334887f07411"
+              LastKnownName="Blog Site"
+              LastKnownLocation="gamerzhere.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="258f2541-01e1-4318-9f0d-21849227edb0"
+                  name="Customer"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="eb255a9e-0302-4b8f-b83f-f946d096a752"
+                  name="Blog Site"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="bf2c14db-a4d0-46ee-9ae5-37c3074dacc3"
+        name="Bank"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="d6337651-d79c-4389-80fb-ceedf169e1ac"
+            isDerived="false"
+            sourceEndRoleName="Bank"
+            targetEndRoleName="Make Payment"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="fec29d8a-187f-4960-b6ed-74436a6d9f5f"
+              LastKnownName="Make Payment"
+              LastKnownLocation="gamerzhere.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="cb05f4e3-5e6c-4649-95f7-0fc0a441aed4"
+                  name="Bank"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="fd612246-a7b6-434c-9e22-ab2c5a2543b0"
+                  name="Make Payment"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="2fed2b86-2406-494f-ac8d-5412e1985fef"
+        name="Game Store"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="2aecd03b-fe9a-4947-a27b-cc97c3ef59e5">
+            <useCaseMoniker
+              Id="bd6d978e-a919-4a02-8555-bf95e015bed0"
+              LastKnownName="Buy Game"
+              LastKnownLocation="gamerzhere.uml" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker
+            Id="052616dd-487b-40ee-88c5-b0f362ec3542"
+            LastKnownName="GamerzHere"
+            LastKnownLocation="gamerzhere.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="48e558cf-1d22-4ea4-bb2a-cf53bf6fd00b"
+        name="Learning Center"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="c2f1a97c-0d49-4a53-8a75-6a3eaf8c245c">
+            <useCaseMoniker
+              Id="98ef2728-2093-410f-b9b1-146c370dbafc"
+              LastKnownName="Tutorial Videos"
+              LastKnownLocation="gamerzhere.uml" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker
+            Id="052616dd-487b-40ee-88c5-b0f362ec3542"
+            LastKnownName="GamerzHere"
+            LastKnownLocation="gamerzhere.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="0b0f0a06-a588-4742-bdd4-334887f07411"
+        name="Blog Site"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="f783b3c0-8fcb-4d08-a351-c3808e413b29">
+            <useCaseMoniker
+              Id="06d02782-c34d-4809-b41e-5826c3ce57e3"
+              LastKnownName="View Blog"
+              LastKnownLocation="gamerzhere.uml" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker
+            Id="052616dd-487b-40ee-88c5-b0f362ec3542"
+            LastKnownName="GamerzHere"
+            LastKnownLocation="gamerzhere.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="a743e3f6-376f-4d70-aa8d-2df672cedbcc"
+        name="UseCase4"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="bd6d978e-a919-4a02-8555-bf95e015bed0"
+        name="Buy Game"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="6e73edef-8d16-47ef-a49d-e191bb6e0797">
+            <useCaseMoniker
+              Id="fec29d8a-187f-4960-b6ed-74436a6d9f5f"
+              LastKnownName="Make Payment"
+              LastKnownLocation="gamerzhere.uml" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker
+            Id="052616dd-487b-40ee-88c5-b0f362ec3542"
+            LastKnownName="GamerzHere"
+            LastKnownLocation="gamerzhere.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="fec29d8a-187f-4960-b6ed-74436a6d9f5f"
+        name="Make Payment"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="052616dd-487b-40ee-88c5-b0f362ec3542"
+            LastKnownName="GamerzHere"
+            LastKnownLocation="gamerzhere.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="98ef2728-2093-410f-b9b1-146c370dbafc"
+        name="Tutorial Videos"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="052616dd-487b-40ee-88c5-b0f362ec3542"
+            LastKnownName="GamerzHere"
+            LastKnownLocation="gamerzhere.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="06d02782-c34d-4809-b41e-5826c3ce57e3"
+        name="View Blog"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="052616dd-487b-40ee-88c5-b0f362ec3542"
+            LastKnownName="GamerzHere"
+            LastKnownLocation="gamerzhere.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="09e6795c-af14-4312-8917-2bdd789f7ed4"
+        name="Manage Blog"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="6010c913-4c62-4ecd-a45a-a28ba70dbb35">
+            <useCaseMoniker
+              Id="0b0f0a06-a588-4742-bdd4-334887f07411"
+              LastKnownName="Blog Site"
+              LastKnownLocation="gamerzhere.uml" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker
+            Id="052616dd-487b-40ee-88c5-b0f362ec3542"
+            LastKnownName="GamerzHere"
+            LastKnownLocation="gamerzhere.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="611a3610-6fb8-4484-9fa1-ba4b89e516ac"
+        name="Site Manager"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="92d5b363-c456-4b98-afb8-b89160f9ac70"
+            isDerived="false"
+            sourceEndRoleName="Site Manager"
+            targetEndRoleName="Tutorial Videos"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="98ef2728-2093-410f-b9b1-146c370dbafc"
+              LastKnownName="Tutorial Videos"
+              LastKnownLocation="gamerzhere.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a2ea52ee-38f6-4856-9d70-a4321fbe5160"
+                  name="Site Manager"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="ebb262f9-aea5-47a3-878f-b4c15b5d9c57"
+                  name="Tutorial Videos"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="79086777-12b6-44a9-b6e1-5d08c332c19e"
+            isDerived="false"
+            sourceEndRoleName="Site Manager"
+            targetEndRoleName="Manage Blog"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="09e6795c-af14-4312-8917-2bdd789f7ed4"
+              LastKnownName="Manage Blog"
+              LastKnownLocation="gamerzhere.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="cfa0cc2e-befa-4504-9a1a-e903b3aea7c1"
+                  name="Site Manager"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="ffffb044-edb2-4d96-839a-249291bef4f9"
+                  name="Manage Blog"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>
